@@ -1,0 +1,65 @@
+    <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--My Lab 3 Template | Christopher Scott 1/19-->
+        <meta charset="utf-8">
+        <title>Happy Valentine's Day!</title>
+        <link rel="stylesheet" href="Stylesheets/Valentine_CS.css">
+        <style>
+            body
+                {
+                    background-color:lightpink;
+                }
+            div
+                {
+                    background-color:lightpink;
+                    text-align:center;
+                    font-size:25pt;
+                    font-style:italic;
+                    color:red;
+                }
+            h1
+                {
+                    background-color:#BB86FC;
+                    text-align:center;
+                    font-size:40pt;
+                    border:5px dotted red;
+                }
+            #image 
+                {
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                } 
+            p
+                {
+                    font-size:25pt;
+                }
+        </style>
+    </head>
+    <body>
+        <h1 id="hvd" onmouseover="this.style.color='red';" onmouseout="this.style.color='black';">Happy Valentine's Day!</h1>
+        <script>
+            name=prompt("What is your name?");
+            document.getElementById("hvd").innerHTML = "Happy Valentine's Day " + name + "!";
+        </script>
+        <div>
+            <blockquote>
+                I am over you <br>
+                Then my eyes meet yours once more <br>
+                and I fall in love.
+            </blockquote>
+            <h6 style="text-align:center; color:red;">By: Alisha Mead</h6>
+        </div>
+        <img id="image" src="Images/Valentines_CS/vgif.gif" alt="dancing heart" width="300px" height="auto">
+        <br><br>
+        <img id="image" src="Images/Valentines_CS/banner.png" alt="heart banner" width="100%" height="100px">
+        <br><br>
+        <p style="color:purple; text-align:center;">Happy Valentine's Day to my special someone. Through thick and thin, you are there, supporting me with every step you take. With every passing moment, I am reminded how thankful I am for you in my life. <em>I love you.</em></p>
+        <br><br><br><br>
+        <img id="image" src="Images/Valentines_CS/red_heart.png" height="300px" width="auto" onmouseover="this.src='Images/Valentines_CS/pink_heart.png';" onmouseout="this.src='Images/Valentines_CS/red_heart.png';">
+        <h6>
+            <a target="_madeyoulook" href="All_Index_CS.html">Back to Index!</a>
+        </h6>
+    </body>
+</html>
